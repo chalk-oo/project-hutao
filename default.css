@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+body {
+    margin: 0;
+    padding: 0; 
+}
+
+video.hutao-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+div#top-section {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+}
+
+div#ganyu-text {
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 40%;
+    text-align: center;
+}
+
+div#ganyu-text img {
+    width:455px;
+    height: 180px;
+    opacity: 70%;
+}
+
+div#author {
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+    top: 65%;
+    text-align: center;
+    word-spacing: 30px;
+}
+
+#discord-tag {
+    z-index: 5;
+    font-family: zen loop;
+    letter-spacing: 5px;
+    font-size: 20px;
+    color:#000000;
+    font-weight: bold;
+    border-style: groove;
+    border-width: 3px;
+    background: rgba(139, 8, 8, 0.3);
+    border-color: #8b0808;
+}
+
+#discord-tag:before {
+    background-color: #a70e0e;
+    opacity: 30%;
+}
+
+#discord-tag:hover {
+    color: #ffffff;
+    opacity: 0.6;
+    background-color: #a70e0e;
+    transition-duration: all 0.1s;
+    transition: 300ms ease-in-out;
+
+}
+
+#discord-tag:active {
+    opacity: 1;
+    transition-duration: 0s;
+}
+
+#copy {
+    opacity: 0;
+}
+
+div#menu {
+    z-index: 10;
+    position: relative;
+    text-align: right;
+    padding-right: 15px;
+}
+
+#uid {
+    z-index: 3;
+    position: fixed;
+    color: #ffffff;
+    font-family: chewy;
+    font-weight: normal;
+    width: 100%;
+    top: 63%;
+    padding-left: 100px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#subsites {
+    z-index: 5;
+    position: fixed;
+    width: 100%;
+}
+
+#subsites ul {
+    list-style: none;
+    text-align: right;
+    padding-top: 30px;
+}
+
+#subsites li {
+    display: inline;
+    color: white;
+    opacity: 100%;
+    font-family: prata;
+    font-weight: bold;
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+#subsites li:last-child {
+    padding-right: 5%;
+}
+
+#social-media {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 5;
+}
+
+#social-media ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#social-media li {
+    display: inline;
+    padding-left: 5px;
+}
+
+#social-media li:first-child {
+    padding-left: 0;
+}
+
+#social-media li img {
+    width: 50px;
+}
+
+#social-media li img:hover {
+    opacity: 100%;
+    transition-duration: 0.5s;
+}
+
+#subsites {
+    color: #ffffff;
+}
+
+#subsites a:active, a:visited, a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 1s;
+
+}
+
+#subsites a:hover {
+    font-size: 25px;
+    color: #7a0000;
+    transition: 1s;
+}
+
+#bottom {
+    bottom: 0%;
+    position: fixed;
+    height: 5%;
+    width: 100%;
+    background-color: black;
+}
+
+#above {
+    position: fixed;
+    top: 0;
+    height: 5%;
+    width: 100%;
+    background-color: black;
+}
+
+#audio {
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+    padding-left: 75%;
+}
+
+/*
+div#menu button {
+    background-color: transparent;
+    border-style: none;
+    opacity: 50%;
+    
+} 
+*/

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Hu Tao: walnut</title>
+
+        <!--META-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content= "Hu-tao site. Totally not a duplicate.">
+        <meta name="author" content="chalk-o#5945">
+        <link rel="stylesheet" href="default.css" type="text/css">
+        <link rel="icon" href="./site/favicon.ico" type="image/x-icon">
+
+    </head>
+
+
+    <body>
+        <iframe src="./site/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
+        <!--WALLPAPER-->
+        <div id="top-section"></div>
+         <video autoplay loop muted class="hutao-video">
+            <source src="./site/hutao-minimal.mp4" type="video/mp4">
+         </video>
+        </div>
+
+        <!--AUDIO-->
+
+        <!--
+        <audio id="audio" controls autoplay loop>
+             <source src="track.mp3" type="audio/mpeg"/>
+             bad browser
+        </audio>
+        -->
+        
+         <!--GANYU TEXT-->
+        <div id="ganyu-text">
+            <img src="./site/logo.png" alt="fix your browser lmao">
+        </div>
+
+        <!--DISCORD TAG-->
+        <div id="author">
+            <button onclick= "myFunction()" id="discord-tag">chalk-o</button>
+            <button onclick= "JoeMama()" id="discord-tag">UID</button>
+        </div>
+        <input value="<@838862702520696842>" type="text" id="copy">
+        <input value="<617742511>" type="text" id="copy2">
+
+        <!--
+        UID
+        <p id="uid">UID: 617742511</p>
+        -->
+
+        <!--SUBSITES-->
+        <div id="subsites">
+            <ul>
+             <li><a href="https://genshin-impact.fandom.com/wiki/Hu_Tao" target="blank">WIKI</a></li>
+             <li><a href="https://genshin.gg/characters/HuTao" target="blank">BUILDS</a></li>
+             <li><a href="https://youtu.be/qrH9vMZBwAk" target="blank">TRAILER</a></li>
+            </ul>
+        </div>
+
+        <div id="social-media">
+            <ul>
+                <li><a href="https://youtu.be/eBGIQ7ZuuiU" target="_blank"><img src="./site/youtube_logo.png"></a></li>
+                <li><a href="https://github.com/chalk-o" target="_blank"><img src="./site/github_logo.png"></a></li>
+            </ul>
+             
+        </div>
+
+        <!--SCRIPTS-->
+        <script> 
+            function myFunction() {
+                var copyText = document.getElementById("copy");
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                document.execCommand("copy");
+            }
+        </script>
+
+        <script> 
+            function JoeMama() {
+                var copyText = document.getElementById("copy2");
+                copyText.select();
+                copyText.setSelectionRange(0, 99999);
+                document.execCommand("copy2");
+            }
+        </script>
+
+        <div id="bottom">
+            
+        </div>
+        <div id="above">
+            
+        </div>
+
+        <!--ARCHIVES-->
+
+        <!--
+        <div id ="menu">
+        <button>
+            <img src="./site/icon_5.png">
+        </button>
+        </div>
+        -->
+
+    </body>
+</html>
